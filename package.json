@@ -1,0 +1,16 @@
+{
+  "name": "inboxgoogle",
+  "version": "1.0.0",
+  "description": "Inbox without being in the chrome window",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ Inbox  --platform=darwin --arch=x64 --version=0.25.1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "*"
+  },
+  "author": "Louis"
+}
